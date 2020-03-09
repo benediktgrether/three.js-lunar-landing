@@ -1,0 +1,52 @@
+{
+    "objects": [
+        {
+            "loadObjects": "tree",
+            "getObjects": [
+                {
+                    "path": "tree/fri/",
+                    "name": "fri_tree",
+                    "postionX": 0,
+                    "postionY": 0,
+                    "postionZ": 2
+                }
+            ]
+        },
+        {
+            "loadObjects": "street",
+            "getObjects": [
+                {
+                    "path": "street/",
+                    "name": "street",
+                    "postionX": 0,
+                    "postionY": 0.1,
+                    "postionZ": 0
+                }
+            ]
+        },
+        {
+            "loadObjects": "street",
+            "getObjects": [
+                {
+                    "path": "street/",
+                    "name": "street",
+                    "postionX": 2,
+                    "postionY": 0.1,
+                    "postionZ": 0
+                }
+            ]
+        },
+        {
+            "loadObjects": "home",
+            "getObjects": [
+                {
+                    "path": "building/",
+                    "name": "home",
+                    "postionX": 0,
+                    "postionY": 0.1,
+                    "postionZ": -2
+                }
+            ]
+        }
+    ]
+}
