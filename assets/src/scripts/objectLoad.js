@@ -22,13 +22,13 @@ var loadingManager = new THREE.LoadingManager();
 
 loadingManager.onProgress = function(item, loaded, total) {
   console.log(item, loaded, total);
-  $(".container-load").html(item, loaded, total);
+  $(".loading-info").html(item, loaded, total);
 };
 
 loadingManager.onLoad = function() {
   console.log("loaded all resources");
   RESOURCES_LOADED = true;
-  $(".container-load").css("display", "none");
+  // $(".container-load").css("display", "none");
 
   onResourcesLoad();
 };
